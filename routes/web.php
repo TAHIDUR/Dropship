@@ -3,34 +3,27 @@
 use Illuminate\Support\Facades\Route;
 
 // Backend Routes
-
 require_once __DIR__ . '/backend/authentication.php';
-
 
 Route::group(['prefix' => 'sadmin', 'middleware' => ['auth:admin', 'admin'], 'namespace' => 'Backend'], function () {
     // Dashboard
     require_once __DIR__ . '/backend/dashboard.php';
 
     // Site Config
-    require_once __DIR__ . '/backend/site_config.php';
+    // require_once __DIR__ . '/backend/site_config.php';
 
     // Product
-    require_once __DIR__ . '/backend/product.php';
+    // require_once __DIR__ . '/backend/product.php';
 
-    // Customer
-    require_once __DIR__ . '/backend/customer.php';
+    // // Customer
+    // require_once __DIR__ . '/backend/customer.php';
 
-    // Order
-    require_once __DIR__ . '/backend/order.php';
+    // // Order
+    // require_once __DIR__ . '/backend/order.php';
 
-    // Purchase
-    require_once __DIR__ . '/backend/purchase.php';
+    // // Purchase
+    // require_once __DIR__ . '/backend/purchase.php';
 });
 
-
-
-
-
 // Frontend Routes
-
-require_once __DIR__ . '\frontend\home.php';
+require_once __DIR__ . '/frontend/home.php';
