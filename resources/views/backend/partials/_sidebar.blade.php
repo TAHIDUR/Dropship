@@ -15,19 +15,19 @@
         @include('backend.partials.sidebar_modules.dashboard')
 
         {{-- Order --}}
-        @include('backend.partials.sidebar_modules.order')
+        {{-- @include('backend.partials.sidebar_modules.order') --}}
 
         {{-- Purchase --}}
-        @include('backend.partials.sidebar_modules.purchase')
+        {{-- @include('backend.partials.sidebar_modules.purchase') --}}
 
         {{-- Product --}}
-        @include('backend.partials.sidebar_modules.product')
+        {{-- @include('backend.partials.sidebar_modules.product') --}}
 
          {{-- Customer --}}
-        @include('backend.partials.sidebar_modules.customer')
+        {{-- @include('backend.partials.sidebar_modules.customer') --}}
 
         {{-- Site Config --}}
-        @include('backend.partials.sidebar_modules.site_config')
+        {{-- @include('backend.partials.sidebar_modules.site_config') --}}
     </ul>
 
     <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
