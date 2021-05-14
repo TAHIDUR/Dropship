@@ -30,9 +30,9 @@ class DatabaseSeeder extends Seeder
                 'is_super' => true,
                 'image' => 'defaults/user.png',
             ]);
-            // SiteInfo::create([
-            //     'name' => 'Company'
-            // ]);
+            SiteInfo::create([
+                'name' => 'Company'
+            ]);
             // Aboutus::create([
 
             //     'description'=>"What is Lorem Ipsum?
