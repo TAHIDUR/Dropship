@@ -10,4 +10,7 @@ Route::group(['prefix' => '/', 'namespace' => 'Frontend'], function () {
 // Authenticated
 Route::group(['prefix' => '/', 'middleware' => ['auth'], 'namespace' => 'Frontend'], function () {
     Route::get('/protected', 'HomeController@protected'); // test purpose
+    
+    // CURL
+    Route::get('check_curl', 'HomeController@getData');
 });
