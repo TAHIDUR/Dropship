@@ -40,21 +40,21 @@ class HomeController extends Controller
     // public function getData()
     // {
     //     return $response = Curl::to('https://jsonplaceholder.typicode.com/users/1')
-    //                     ->get();
+    //                     ->put();
 
     // }
 
     // public function getData()
     // {
     //     return $response = Curl::to('https://jsonplaceholder.typicode.com/users/1')
-    //                     ->get();
+    //                     ->patch();
 
     // }
 
     // public function getData()
     // {
     //     return $response = Curl::to('https://jsonplaceholder.typicode.com/users/1')
-    //                     ->get();
+    //                     ->delete();
 
     // }
 }
